@@ -8,6 +8,6 @@ services:
     ports:
       - '6500:3306'
     volumes:
-      - progresDB:/var/lib/mysql
+      - mysqlDB:/var/lib/mysql
 volumes:
-  progresDB:
+  mysqlDB:
